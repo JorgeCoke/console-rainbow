@@ -1,0 +1,26 @@
+{
+  "name": "console-rainbow",
+  "version": "1.0.0",
+  "description": "Wow, much rainbow, so beautiful",
+  "main": "index.min.js",
+  "scripts": {
+    "build": "uglifyjs index.js --compress --mangle -o index.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeCoke/console-rainbow.git"
+  },
+  "keywords": [
+    "console",
+    "logger",
+    "log",
+    "rainbow"
+  ],
+  "author": "Jorge Martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JorgeCoke/console-rainbow/issues"
+  },
+  "homepage": "https://github.com/JorgeCoke/console-rainbow#readme"
+}
